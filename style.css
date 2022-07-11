@@ -1,0 +1,195 @@
+*{
+    
+}
+
+body
+{
+    font-family: "Roboto";
+    border: 2px solid red;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 450px;
+    margin-right: 450px;
+    background-color: black;    
+}
+
+.top{
+    color: white;
+    background-color: #1F2937;
+}
+
+.headlinks {
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+}
+
+.links{
+    font-size: 18px;
+    font-weight: 100;
+    flex: auto;
+}
+
+.links#logo{    
+    font-weight: 700;        
+}
+
+.otherlinks{    
+    justify-content: right;    
+    display: flex;
+}
+
+.links.other{
+    margin-left: 25px;
+}
+
+.main{
+    padding: 100px;
+    display: flex;
+}
+
+.topleft{
+    flex-direction: column;
+    flex: 1, 1, auto;
+    display: flex;    
+    margin-right: 25px;
+}
+
+.large{
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.subtext{
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.button{    
+    border-radius: 5px;
+    margin-top: 8px;
+    padding: 5px;
+    font-size: 10px;
+    width: 75px;
+    border: none;
+    color: white;
+    background-color: #3882F6;
+}
+
+.topright{
+    flex: 1, 1, auto;    
+    margin-left: 25px;
+}
+
+.img{
+    width: 400px;
+    height: auto;
+}
+
+.random{
+    background-color: white;
+}
+
+.randomtitle{
+    padding: 25px;
+    font-size: 36px;
+    text-align: center;
+}
+
+.randomimages{
+    display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+}
+
+.imageandtext{    
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.imageblue{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 125px;
+    height: 125px;
+    background-color: white;
+    border: 2px solid #3882F6;    
+    border-radius: 10px;
+}
+
+.inspiration{
+    padding-top: 75px;
+    padding-bottom: 75px;
+    padding-left: 150px;
+    padding-right: 150px;
+    background-color: #E5E7EB;
+}
+
+#quote{
+    font-size: 36px;
+    font-weight: 100;
+}
+
+#author{
+    margin-top: 15px;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: end;
+}
+
+.callblock{
+    padding-top: 75px;
+    padding-bottom: 75px;
+    padding-left: 150px;
+    padding-right: 150px;
+    background-color: white;
+}
+
+.callaction{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 75px;
+    padding-right: 75px;
+    color: white;
+    border-radius: 10px;
+    background-color: #3882F6;
+    display: flex;    
+}
+
+.calltext{
+    display: flex;
+    flex-direction: column;
+}
+
+.calltitle{
+    font-size: 24px;
+}
+
+.callsubtext{
+    margin-right: 50px;
+}
+
+.callbutton{
+    margin: 12px;
+    width: 150px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 8px;
+    background-color: transparent;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+footer{            
+    padding: 10px;
+    background-color: #1F2937;
+}
+
+#copyright{
+    color: white;
+    font-size: x-small;
+    text-align: center;
+}
